@@ -1,0 +1,389 @@
+.bg-image-container {
+  /* background: url('./assets/images/img-body-bg.png'); */
+
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* hero */
+.hero-container-2 {
+  /*padding: 20px 0;*/
+  background: url("public/website/assetsN/home-buying.png");
+  background-position: center;
+}
+
+.hero-container-2 .hero-bg {
+  /*background: url('./assets/images/img-banner.png');*/
+  background-position: center;
+  background-size: 100% 100%;
+  max-width: 1410px;
+  margin: 0 10px;
+  padding: 50px 0;
+  border-radius: 15px;
+}
+
+.hero-container-2 .hero-content {
+  /*background-color: #f0f0f0bf;*/
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px 10px;
+  padding: 120px 0 !important;
+}
+.hero-container-2 .hero-content.hero-content-second {
+  padding: 30px 10px;
+}
+.hero-container-2 .hero-content.hero-content-second h1 {
+  font-size: 65px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.hero-container-2 .hero-heading {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 0.5rem;
+  opacity: 1;
+}
+
+.hero-container-2 .hero-heading img {
+  width: 140px;
+}
+
+.hero-container-2 .hero-heading h1 {
+  /* font-size: 64px; */
+  font-family: "Bebas Neue", sans-serif;
+  margin: 6px 0 0 5px;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+.hero-container-2 .hero-content p {
+  font-size: 16px;
+  font-weight: 500;
+  /*max-width: 990px;*/
+  margin: auto;
+  text-align: left;
+}
+/* hone buying and selling */
+.content-container {
+  line-height: 1.6;
+  color: #333;
+  margin: 0 auto;
+}
+
+.content-container p {
+  margin-bottom: 20px;
+}
+
+.content-container a.see-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content-container a.see-more:hover {
+  text-decoration: underline;
+}
+
+.how-it-works-container {
+  line-height: 1.6;
+  color: #333;
+  margin: 0 auto;
+  padding: 30px 5rem;
+}
+
+.how-it-works-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.how-it-works-paragraph {
+  margin-bottom: 20px;
+}
+
+.how-it-works-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.how-it-works-link:hover {
+  text-decoration: underline;
+}
+
+/* .cards-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.card {
+  background-image: linear-gradient(#f0f0f0, lightgray);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+} */
+.cards-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 20px;
+  flex-wrap: wrap; /* Allow cards to wrap onto new lines */
+}
+
+.card {
+  background-image: linear-gradient(#f0f0f0, lightgray);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: 23%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 98%;
+  }
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 2px solid #e60000;
+}
+
+.card-icon img {
+  max-width: auto;
+  margin-bottom: 15px;
+  height:70px
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  text-align: left;
+  font-size: 14px;
+  color: #666;
+}
+
+.cards-footer {
+  text-align: left;
+  margin: 30px 60px;
+}
+
+.footer-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 16px;
+  color: #333;
+  max-width: 800px;
+
+  line-height: 1.6;
+}
+
+.Capitalcontainer {
+  background: rgb(147, 147, 147);
+  background: linear-gradient(
+    0deg,
+    rgba(147, 147, 147, 1) 0%,
+    rgba(179, 178, 178, 1) 0%,
+    rgba(213, 215, 215, 1) 0%,
+    rgba(166, 162, 162, 1) 0%,
+    rgba(163, 175, 175, 1) 11%,
+    rgba(186, 186, 186, 1) 25%,
+    rgba(176, 181, 181, 1) 36%,
+    rgba(178, 184, 184, 1) 52%,
+    rgba(245, 245, 245, 1) 100%
+  );
+
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.Capitalcontainer h1 {
+  padding: 3rem 5rem;
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.reasons {
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reasons ul {
+  list-style-type: disc;
+}
+
+.reasons ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+.section-buy-houses {
+  background-color: #ffffff;
+  /* padding: 20px 30px; */
+
+  width: 100%;
+  margin: 20px 0;
+}
+
+.section-buy-houses h2 {
+  padding: 0px 6rem;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.section-buy-houses p {
+  padding: 0px 6rem;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.section-buy-houses a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.section-buy-houses a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .reasons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reasons ul {
+    margin-bottom: 20px;
+  }
+}
+.section-choose-option {
+  background-color: #ffffff;
+  /* padding: 20px 30px; */
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  margin: 40px 0;
+}
+
+.section-choose-option h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 0px 6rem;
+  text-align: left;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding: 0px 6rem;
+}
+
+.option h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.option p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.option a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.option a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .options {
+    grid-template-columns: 1fr;
+  }
+}
+
+.container-bg {
+  background: url("../nbxAh/assetsN/Patterns/5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  background-color: #a1140a;
+  margin-top: 5rem;
+  color: white;
+}
+
+.container-bg .contact-container {
+  max-width: 1130px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.container-bg .contact-container h2 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.container-bg .contact-container p {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.advertise {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.advertise img {
+  width: 550px;
+  height: 380px;
+
+  border-radius: 20px;
+}

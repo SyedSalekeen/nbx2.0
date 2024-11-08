@@ -1,0 +1,50 @@
+.real-estate-section {
+ width: 100%;
+
+
+   
+    line-height: 1.6;
+}
+.layout{
+    position: relative;
+    overflow: hidden;
+}
+.bg-img{
+    position: absolute;
+    left: 39rem;
+
+}
+
+  .hero-container .hero-content.hero-content-second h1{
+    font-weight: 600;
+  }
+.bg-img-2{
+    position: absolute;
+    position: absolute;
+    bottom: -24rem;
+    left: -25rem;
+}
+.real-estate-text {
+    margin: 25px 8rem;
+   
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.real-estate-link {
+        
+    color: #0077cc;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.real-estate-link:hover {
+    text-decoration: underline;
+}
+
+
+/* //card */
+
+
